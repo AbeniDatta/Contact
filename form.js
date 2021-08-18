@@ -1,10 +1,10 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyBYaSshT-5qPcCmVLLT-AoQzor6QBCqx4g",
-    authDomain: "abeni-s-website.firebaseapp.com",
-    projectId: "abeni-s-website",
-    storageBucket: "abeni-s-website.appspot.com",
-    messagingSenderId: "896410888982",
-    appId: "1:896410888982:web:9f82f923372f152ef8be37"
+    apiKey: "AIzaSyC2nPu96SzCXNsa1qAsnFfCFSd-c6Gzk8E",
+    authDomain: "abeni-s-website-16b08.firebaseapp.com",
+    projectId: "abeni-s-website-16b08",
+    storageBucket: "abeni-s-website-16b08.appspot.com",
+    messagingSenderId: "900391950239",
+    appId: "1:900391950239:web:d55f305abdff0f0694cfaa"
   };
   // Init Firebase
   firebase.initializeApp(firebaseConfig);
