@@ -5,7 +5,7 @@ var firebaseConfig = {
     storageBucket: "abeni-s-website.appspot.com",
     messagingSenderId: "896410888982",
     appId: "1:896410888982:web:9f82f923372f152ef8be37"
-  };
+};
 // Init Firebase
 firebase.initializeApp(firebaseConfig);
 var firestore = firebase.firestore();
