@@ -1,14 +1,14 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyC2nPu96SzCXNsa1qAsnFfCFSd-c6Gzk8E",
-    authDomain: "abeni-s-website-16b08.firebaseapp.com",
-    projectId: "abeni-s-website-16b08",
-    storageBucket: "abeni-s-website-16b08.appspot.com",
-    messagingSenderId: "900391950239",
-    appId: "1:900391950239:web:d55f305abdff0f0694cfaa"
+    apiKey: "AIzaSyChZgHw903h8HVD8mdP8p8jR9EGlbt6UKg",
+    authDomain: "abeni-s-website-5b97c.firebaseapp.com",
+    projectId: "abeni-s-website-5b97c",
+    storageBucket: "abeni-s-website-5b97c.appspot.com",
+    messagingSenderId: "46093674097",
+    appId: "1:46093674097:web:cede493fe8bd236d8b9dd0"
   };
   // Init Firebase
   firebase.initializeApp(firebaseConfig);
-  var firestone = firebase.firestore();
+  var firestore = firebase.firestore();
 
   // Start grabbing out DOM element
   const submitBtn = document.querySelector('#submit');
