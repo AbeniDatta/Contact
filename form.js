@@ -41,6 +41,6 @@ submitBtn.addEventListener('click',function(){
         console.log("Data Saved");
     })
     .catch(function(error){
-        console.log("error");
+        console.log(error);
     });
 });
