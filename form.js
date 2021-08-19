@@ -1,27 +1,27 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyChZgHw903h8HVD8mdP8p8jR9EGlbt6UKg",
-    authDomain: "abeni-s-website-5b97c.firebaseapp.com",
-    projectId: "abeni-s-website-5b97c",
-    storageBucket: "abeni-s-website-5b97c.appspot.com",
-    messagingSenderId: "46093674097",
-    appId: "1:46093674097:web:cede493fe8bd236d8b9dd0"
+    apiKey: "AIzaSyBYaSshT-5qPcCmVLLT-AoQzor6QBCqx4g",
+    authDomain: "abeni-s-website.firebaseapp.com",
+    projectId: "abeni-s-website",
+    storageBucket: "abeni-s-website.appspot.com",
+    messagingSenderId: "896410888982",
+    appId: "1:896410888982:web:9f82f923372f152ef8be37"
   };
-  // Init Firebase
-  firebase.initializeApp(firebaseConfig);
-  var firestore = firebase.firestore();
+// Init Firebase
+firebase.initializeApp(firebaseConfig);
+var firestore = firebase.firestore();
 
-  // Start grabbing out DOM element
-  const submitBtn = document.querySelector('#submit');
+// Start grabbing out DOM element
+const submitBtn = document.querySelector('#submit');
 
-  let userFirstName = document.querySelector('userFirstName');
-  let userLasttName = document.querySelector('userLastName');
-  let userEmail = document.querySelector('userEmail');
-  let userSubject = document.querySelector('userSubject');
-  let userMessage = document.querySelector('userMessage');
+let userFirstName = document.querySelector('#userFirstName');
+let userLasttName = document.querySelector('#userLastName');
+let userEmail = document.querySelector('#userEmail');
+let userSubject = document.querySelector('#userSubject');
+let userMessage = document.querySelector('#userMessage');
 
-  const db= firestore.collection("ContactData");
+const db= firestore.collection("ContactData");
 
-  submitBtn.addEventListener('click',function(){
+submitBtn.addEventListener('click',function(){
     let userFirstName = userFirstName.value;
     let userLastName = userLastName.value;
     let userEmail = userEmail.value;
@@ -29,7 +29,8 @@ var firebaseConfig = {
     let userMessage = userMessage.value;
 
     //Access the Database Collection
-    db.doc().set({
+    db.doc()
+    .set({
         first_name: userFirstNameInput,
         last_name: userLastNameInput,
         email: userEmailInput,
@@ -42,4 +43,4 @@ var firebaseConfig = {
     .catch(function(error){
         console.log("error");
     });
-  });
+});
