@@ -11,22 +11,22 @@ firebase.initializeApp(firebaseConfig);
 var firestore = firebase.firestore();
 
 // Start grabbing out DOM element
-const submitBtn = document.querySelector('submit');
+const submitBtn = document.querySelector('#submit');
 
-let userFirstName = document.querySelector('userFirstName');
-let userLasttName = document.querySelector('userLastName');
-let userEmail = document.querySelector('userEmail');
-let userSubject = document.querySelector('userSubject');
-let userMessage = document.querySelector('userMessage');
+let userFirstName = document.querySelector('#userFirstName');
+let userLasttName = document.querySelector('#userLastName');
+let userEmail = document.querySelector('#userEmail');
+let userSubject = document.querySelector('#userSubject');
+let userMessage = document.querySelector('#userMessage');
 
 const db= firestore.collection("ContactData");
 
 submitBtn.addEventListener('click',function(){
-    let userFirstName = userFirstName.value;
-    let userLastName = userLastName.value;
-    let userEmail = userEmail.value;
-    let userSubject = userSubject.value;
-    let userMessage = userMessage.value;
+    let userFirstNameInput = userFirstName.value;
+    let userLastNameInput = userLastName.value;
+    let userEmailInput = userEmail.value;
+    let userSubjectInput = userSubject.value;
+    let userMessageInput = userMessage.value;
 
     //Access the Database Collection
     db.doc()
