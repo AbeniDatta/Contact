@@ -13,11 +13,11 @@ var firestore = firebase.firestore();
 // Start grabbing out DOM element
 const submitBtn = document.querySelector('#submit');
 
-let userFirstName = document.querySelector('#userFirstName');
-let userLasttName = document.querySelector('#userLastName');
-let userEmail = document.querySelector('#userEmail');
-let userSubject = document.querySelector('#userSubject');
-let userMessage = document.querySelector('#userMessage');
+let userFirstName = document.querySelector('userFirstName');
+let userLasttName = document.querySelector('userLastName');
+let userEmail = document.querySelector('userEmail');
+let userSubject = document.querySelector('userSubject');
+let userMessage = document.querySelector('userMessage');
 
 const db= firestore.collection("ContactData");
 
