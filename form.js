@@ -31,11 +31,11 @@ submitBtn.addEventListener('click',function(){
     //Access the Database Collection
     db.doc()
     .set({
-        first_name: userFirstNameInput,
-        last_name: userLastNameInput,
-        email: userEmailInput,
-        subject: userSubjectInput,
-        message: userMessageInput
+        first_name: userFirstName,
+        last_name: userLastName,
+        email: userEmail,
+        subject: userSubject,
+        message: userMessage
     })
     .then(function(){
         console.log("Data Saved");
