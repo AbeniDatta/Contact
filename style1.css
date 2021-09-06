@@ -24,7 +24,7 @@ body{
 	text-align: center;
 	padding: 5px;
 }
-.my-form{
+#my-form{
 	border: 6px gray dashed;
 	width: 700px;
 	height: 450px;
@@ -34,14 +34,14 @@ body{
 	margin-left: 280px;
 }
 
-.my-form input[type="text"], .myform textarea{
+#my-form input[type="text"], #myform textarea{
 	padding: 8px;
 	width: 96%;
 	margin-bottom: 20px;
 	border: 2px #172335 solid;
 }
 
-.my-form label{
+#my-form label{
 	font-size: 20px;
 	color: white;
 }
