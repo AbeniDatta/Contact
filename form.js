@@ -51,6 +51,6 @@ function sendMessage(firstname, lastname, email, subject, message) {
     Last_Name: lastname,
     email: email,
     subject: subject
-    message:message
+    message: message
   });
 }
