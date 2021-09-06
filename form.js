@@ -24,7 +24,7 @@ function formSubmit(e) {
   let firstname = document.querySelector('#userFirstName').value;
   let lastname = document.querySelector('#userLastName').value;
   let email = document.querySelector('#userEmail').value;
-  let subject = document.querySelector('#serSubject').value;
+  let subject = document.querySelector('#userSubject').value;
   let message = document.querySelector('#userMessage').value;
 
   //send message values
@@ -50,7 +50,7 @@ function sendMessage(firstname, lastname, email, subject, message) {
     First_Name: firstname,
     Last_Name: lastname,
     email: email,
-    subject: subject
+    subject: subject,
     message: message
   });
 }
