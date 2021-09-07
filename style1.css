@@ -40,6 +40,12 @@ body{
 	margin-bottom: 20px;
 	border: 2px #172335 solid;
 }
+#my-form input[type="email"], #myform textarea{
+	padding: 8px;
+	width: 96%;
+	margin-bottom: 20px;
+	border: 2px #172335 solid;
+}
 
 #my-form label{
 	font-size: 20px;
