@@ -1,6 +1,8 @@
 body{
-	background-color: #2f476a;
-	font-family: normal 25px 'Comic Sans MS',cursive, sans-serif;
+	background-color: #0368a5;
+	/*font-family: normal 25px 'Comic Sans MS',cursive, sans-serif;*/
+	font-family: 'Corben';
+	margin: 0;
 }
 
 .container{
@@ -9,105 +11,102 @@ body{
 	overflow: hidden;
 }
 
-.container h1{
+.container h1 {
 	color: white;
-	font-size: 70px;
+	font-size: 4.9vw; /* Responsive font size */
 	text-align: center;
-	text-decoration: double underline 5px;
-	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+	text-decoration: underline double 0.5vw; /* Responsive text decoration */
+	text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.66); /* Responsive text shadow */
+	margin-bottom: 10vh; /* Responsive bottom margin */
 }
 
-#main-footer{
-	background:#0E0B09;
+
+#main-footer {
+	background: #0E0B09;
 	color: white;
-	font-size: 15px;
+	font-size: 1.5vw; /* Responsive font size */
 	text-align: center;
-	padding: 5px;
-}
-#my-form{
-	border: 6px gray dashed;
-	width: 700px;
-	height: 450px;
-	padding: 30px;
-	margin-bottom: 20px;
-	margin-right: 200px;
-	margin-left: 280px;
+	padding: 1vw; /* Responsive padding */
+	height: 8vh; /* Responsive height in vh */
+	width: 100%; /* Responsive width in vw */
+	position: absolute;
+	top: 140vh; /* Responsive top position in vh */
+	right: 0vw; /* Responsive right position in vw */
+	margin-top: 0vh; /* Responsive top margin */
+	clear: both; /* Ensure footer clears other content */
 }
 
-#my-form input[type="text"], #myform textarea{
-	padding: 8px;
-	width: 96%;
-	margin-bottom: 20px;
-	border: 2px #172335 solid;
+#my-form {
+	border: 0.4vw gray dashed; /* Responsive border thickness */
+	width: 50vw; /* Responsive width */
+	height: 90vh; /* Responsive height */
+	position: absolute;
+	right: 2vw;
+	top: 30vh;
+	padding: 3vw; /* Responsive padding */
+	margin-bottom: 10vh; /* Responsive margin */
+	margin-right: 20vw; /* Responsive margin */
+	margin-left: 28vw; /* Responsive margin */
 }
-#my-form input[type="email"], #myform textarea{
-	padding: 8px;
-	width: 96%;
-	margin-bottom: 20px;
-	border: 2px #172335 solid;
+
+#my-form input[type="text"],
+#my-form input[type="email"],
+#my-form textarea {
+	padding: 0.8vw; /* Responsive padding */
+	width: 95%; /* Responsive width */
+	margin-bottom: 5vh; /* Responsive margin */
+	border: 0.2vw #172335 solid; /* Responsive border thickness and color */
 }
-#my-form label{
-	font-size: 20px;
+
+#my-form label {
+	font-size: 2vw; /* Responsive font size */
 	color: white;
 }
 
-.button1{
-	font-size: 18px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 25px;
-	padding-right: 25px;
-	margin-top: 15px;
-	border: 2px #172335 solid;
-	border-radius: 10px;
+.button1 {
+	font-size: 2vw; /* Responsive font size */
+	padding: 1vh 2vw; /* Responsive padding */
+	margin-top: 2vh; /* Responsive margin */
+	border: 0.2vw #172335 solid; /* Responsive border thickness and color */
+	border-radius: 1vw; /* Responsive border radius */
 }
 
-.button1:hover{
+.button1:hover {
 	background-color: #172335;
 	color: white;
-	border: 2px white solid;
+	border: 0.2vw white solid; /* Responsive border color */
 }
 
-#navbar{
-	background-color: ;
-	height: 10px;
+#navbar {
+	height: 2vh; /* Responsive height */
 	position: absolute;
-	right: 40px;
-	top: 14px;
+	right: 1vw; /* Responsive right position */
+	top: 2vh; /* Responsive top position */
 }
 
-#navbar ul{
-	padding: ;
+#navbar ul {
+	padding: 0; /* Reset padding */
 	list-style: none;
 }
 
-#navbar li{
+#navbar li {
 	display: inline;
-	padding: 3px;
+	padding: 0.8vw; /* Responsive padding */
+	text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.66); /* Responsive text shadow */
 }
 
-#navbar a{
+#navbar a {
 	color: white;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 1.4vw; /* Responsive font size */
 	text-align: center;
-	padding-top: 5px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	padding-left: 10px;
+	padding: 0.8vw 1vh; /* Responsive padding */
 }
 
-#navbar a:hover{
+#navbar a:hover {
 	color: black;
-	text-decoration: none;
 	background-color: white;
-	font-size: 16px;
-	padding-top: 5px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	text-align: center;
-	border-radius: 20px;
+	border-radius: 2vw; /* Responsive border radius */
 }
 
 #socials ul{
@@ -133,6 +132,11 @@ body{
 	height: 50px;
 	width: 50px;
 }
+#instagram{
+	height: 50px;
+	width: 50px;
+}
+
 #instagram{
 	height: 50px;
 	width: 50px;
