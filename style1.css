@@ -109,32 +109,28 @@ body{
 	border-radius: 2vw; /* Responsive border radius */
 }
 
-#socials ul{
+#socials {
+	position: fixed;
+	top: 20vh; /* Responsive top position */
+	left: 2vw; /* Responsive left position */
+	margin: 0;
+}
+
+#socials ul {
+	padding: 0; /* Reset padding */
 	list-style: none;
 }
 
-#socials li{
-	padding: 3px;
+#socials li {
+	padding: 0.5vw; /* Responsive padding */
 }
 
-#socials{
-	position: fixed;
-	top: 200px;
-	left: 0px;
-	margin: 0px;
-}
-
-#linkedin{
-	height: 50px;
-	width: 50px;
-}
-#github{
-	height: 50px;
-	width: 50px;
-}
-#youtube{
-	height: 50px;
-	width: 50px;
+#linkedin,
+#github,
+#youtube {
+	height: 5vw; /* Responsive height */
+	width: 5vw; /* Responsive width */
+	margin-right: 1vw; /* Responsive right margin */
 }
 
 #instagram{
